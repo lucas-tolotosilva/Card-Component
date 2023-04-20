@@ -14,13 +14,29 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
-body{
-    height: 100%;
+.body{
+    background-color: var(--blue-900);
+}
+.all{
+    height: 100vh;
     background-color: var(--blue-900);
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.attribution{
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Inter';
+    font-size: 20px;
+    color: var(--white-50)
+}
+.attribution a{
+    font-family: 'Inter';
+    font-size: 20px;
+    color: var(--soft-violet)
 }
 .container{
     width: 100%;
